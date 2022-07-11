@@ -1,0 +1,19 @@
+html, body {
+    font-family: 'Hotel De Paris', Courier, monospace;
+    font-size: 25px;
+    background-size: cover;
+    background-color: transparent;
+}
+.drag {
+    -webkit-app-region: drag;
+}
+
+.exitApp {
+    outline-style: hidden;
+    background-color: transparent;
+    color: #fc4f66;
+    border: #ff0000 solid 2px;
+    padding: 10px 14px;
+    border-radius: 5px;
+}
+

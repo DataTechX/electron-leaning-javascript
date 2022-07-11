@@ -1,0 +1,8 @@
+# dependencies
+/node_modules
+
+# test
+/main.js
+/jquery.js
+/config.js
+/dist

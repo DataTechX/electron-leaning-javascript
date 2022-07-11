@@ -1,0 +1,38 @@
+{
+  "devDependencies": {
+    "electron": "^19.0.8",
+    "electron-builder": "^23.1.0"
+  },
+  "dependencies": {
+    "node-powershell": "^5.0.1",
+    "regedit": "^5.1.1"
+  },
+  "name": "mini-project",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-win": "electron-builder --win"
+  },
+  "build": {
+    "appId": "lynn-team-project",
+    "win": {
+      "target": [
+        "nsis"
+      ],
+      "icon": "./build/7_1.ico"
+    },
+    "nsis": {
+      "installerIcon": "./build/ins_icon.ico",
+      "uninstallerIcon": "./build/uni_icon.ico",
+      "license": "./build/license.txt",
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    }
+  },
+  "keywords": [],
+  "author": "A'Fafa#7824",
+  "license": "ISC",
+  "description": "electron lean project"
+}
